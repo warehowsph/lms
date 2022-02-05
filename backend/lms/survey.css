@@ -1,0 +1,226 @@
+li {
+  	list-style-type: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: white;
+    font-weight: normal;
+    color: #454545;
+}
+.kv-upload-progress .kv-hidden{
+	display: none;
+}
+
+.sortable{
+	background-color: none;
+	z-index: 1;
+}
+
+/*Set the row height to the viewport*/
+.row-height{
+  height: 100vh;
+}
+
+/*Set up the columns with a 100% height, body color and overflow scroll*/
+
+.left{
+		height: 100%;
+		overflow-y: scroll;
+		padding: 0;
+}
+
+.right{
+  	height: 100%;
+  	overflow-y: scroll;
+  	padding: 0;
+}
+
+/*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+* {
+  -ms-overflow-style: none !important;
+}
+
+.radio-inline{
+	width: 100%;
+}
+
+/*checkbox*/
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+/*checkbox*/
+
+.sortable{
+	position: relative;
+    padding: 0;
+    top: 100px;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+body{
+	margin:0!important;
+}
+.info{
+	padding: 0px!important;
+	position: fixed;
+	background-color: rgb(230,230,230);
+	z-index: 10;
+}
+.info-title{
+	color: white;
+	background-color: #4e4e4e;
+}
+.info-row{
+
+}
+.option-container{
+	background-color: rgb(200,200,200);
+	border: 2px solid black;
+	padding: 10px;
+	cursor: pointer;
+}
+.numbering_option{
+	display: inline;
+}
+.remove_option{
+	display: inline;
+	float: right;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	background-color: rgb(255, 85, 85);
+	cursor: pointer;
+	transition: .4s;
+}
+.remove_option:hover{
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+.info-key{
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+}
+.info-key:hover{
+	background-color: white;
+	color: black;
+}
+.option_label{
+	display: inline;
+}
+.option_label_input{
+	display: inline;
+	width: 20px;
+}
+.option_label_container {
+    display: inline;
+    bottom: 12px;
+    position: relative;
+}
+.option_label_container input{
+	width: 90%;
+	display: inline;
+}
+.option_type{
+	display: inline;
+	width: 100px;
+}
+.option_type input{
+	display: inline;
+	width: 20px;
+}
+.save:hover{
+	color:white;
+	cursor: pointer;
+	background-color: #333!important;
+}
+.assign:hover{
+	color:white;
+	cursor: pointer;
+	background-color: #333!important;
+}
+.assign_panel{
+	width: 100%;
+	height: 100%;
+	top: 100px;
+	position: fixed;
+}

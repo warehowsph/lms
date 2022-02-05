@@ -1,0 +1,87 @@
+<html>
+<head>
+<link href="lib/mathquill.css" rel="stylesheet">
+<link href="lib/matheditor.css" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+	/*td{
+		min-height: 55px;
+		height: 55px
+	}*/
+	/*.matheditor-toolbar-answer{
+		margin-top: 67px;
+	}*/
+  .borderless td, .borderless th {
+      border: none;
+  }
+</style>
+</head>
+<body style="">
+  <table class="table borderless">
+  	<tr>
+  		<th></th>
+      <th width="30%">Text</th>
+  		<th>Formula Board</th>
+  	</tr>
+  	<tr>
+  		<td></td>
+      <td><textarea class="form-control"></textarea></td>
+  		<td><div class="answer" id="answer"></div></td>
+  	</tr>
+  	<tr>
+  		<td></td>
+      <td></td>
+  		<td><div class="answer" id="answer2"></div></td>
+  	</tr>
+  	<tr>
+  		<td></td>
+      <td></td>
+  		<td><div class="answer" id="answer3"></div></td>
+  	</tr>
+  	<tr>
+  		<td></td>
+      <td></td>
+  		<td><div class="answer" id="answer4"></div></td>
+  	</tr>
+  	<tr>
+  		<td></td>
+      <td></td>
+  		<td><div class="answer" id="answer5"></div></td>
+  	</tr>
+  	
+  </table>
+  
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="lib/mathquill.min.js"></script>
+<script src="lib/matheditor.js"></script>
+<script type="text/javascript">
+  var me = new MathEditor('answer');
+  var me2 = new MathEditor('answer2');
+  var me2 = new MathEditor('answer3');
+  var me2 = new MathEditor('answer4');
+  var me2 = new MathEditor('answer5');
+  var me2 = new MathEditor('answer6');
+  var me2 = new MathEditor('answer7');
+  var me2 = new MathEditor('answer8');
+  var me2 = new MathEditor('answer9');
+  var me2 = new MathEditor('answer10');
+  // me.removeButtons(['fraction']);
+  // me.setTemplate('floating-toolbar');
+  // me2.removeButtons(['fraction']);
+  // me2.setTemplate('floating-toolbar');
+
+</script>
+
+</html>
