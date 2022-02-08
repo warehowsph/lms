@@ -85,10 +85,10 @@ defined('EXIT__AUTO_MIN')      or define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      or define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
-define('S3_BUCKET_BASE_URL', 'https://s3.us-east-2.amazonaws.com/media.campuscloudph.com/');
-define('S3_BUCKET', 'media.campuscloudph.com');
-define('AWS_ACCESS_KEY_ID', 'AKIAXG65GN66XVJDHDDE');
-define('AWS_ACCESS_KEY_SECRET', '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');
+define('S3_BUCKET_BASE_URL', 'https://s3.us-east-2.amazonaws.com/media.warehows.net/');
+define('S3_BUCKET', 'media.warehows.net');
+define('AWS_ACCESS_KEY_ID', 'AKIATQBN3NHC6DJHKHAA');
+define('AWS_ACCESS_KEY_SECRET', '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');
 
 define('S3_URI', 's3.us-east-2.amazonaws.com');
 define('AWS_REGION', 'us-east-2');

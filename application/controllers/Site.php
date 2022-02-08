@@ -92,7 +92,6 @@ class Site extends Public_Controller
          );
 
          $setting_result = $this->setting_model->get();
-
          
          $result = $this->staff_model->checkLogin($login_post);
 
